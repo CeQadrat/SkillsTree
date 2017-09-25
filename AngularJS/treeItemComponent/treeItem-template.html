@@ -1,0 +1,12 @@
+<div>
+    <md-card md-colors="ctrl.colors" ng-click="ctrl.openTree()">
+        <md-card-title>
+            <md-card-title-text>
+                <span>{{ctrl.item.name}}</span>
+            </md-card-title-text>
+        </md-card-title>
+    </md-card>
+    <div ng-show="ctrl.isOpen" class="tree-container">
+        <tree-item ng-repeat="item in ctrl.item.skills" item="item" color-num="ctrl.colorNum + 1"></tree-item>
+    </div>
+</div>

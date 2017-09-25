@@ -1,0 +1,22 @@
+.tree-element {
+    margin-left: 20px;
+    transition-property: display;
+    transition-duration: 3s;
+}
+.container, .hide-container {
+    width: 40%;
+    margin-right: 20px;
+    float: left;
+}
+.tree-name{
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    padding: 24px 16px 16px;
+    border-radius: 2px;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+}
+.symbol {
+    font-weight: 100;
+    margin-right: 5px;
+}

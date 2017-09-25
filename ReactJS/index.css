@@ -1,0 +1,17 @@
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+.tree-element {
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    padding: 24px 16px 16px;
+    border-radius: 2px;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+}
+.tree-container {
+    margin-left: 20px;
+}
